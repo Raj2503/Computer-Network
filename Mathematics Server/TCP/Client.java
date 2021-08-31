@@ -5,7 +5,6 @@ import java.util.*;
 public class Client {
 
    public static void main(String[] args) {
-
       Socket client = null;
       // String host = args[0];
       String host = "localhost";

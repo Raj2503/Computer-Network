@@ -7,7 +7,6 @@ public class Server {
    public Server(int port) throws IOException {
       System.out.println("Server Initialized");
       serverSocket = new ServerSocket(port);
-      // serverSocket.setSoTimeout(1000000);
    }
 
    public static void main(String[] args) {
